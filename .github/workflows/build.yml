@@ -21,7 +21,7 @@ jobs:
 
       - name: Extract MessMate project
         run: |
-          unzip -q MessMate_COMPLETE_UI_Project.zip
+          unzip -q MessMate_COMPLETE_UI_Project_FIREBASE.zip
           cd MessMateAndroid
           test -f settings.gradle
           test -f app/build.gradle
